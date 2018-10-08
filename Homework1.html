@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Skeleton page</title>
+  <style>
+  * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  </style>
+</head>
+
+<body>
+  <h1>First homework assignment.</h1>
+  <p>Photoshop practice.</p>
+
+  <div class="row">
+  <div class="column">
+    <img src="img/photo.jpg" alt="Original" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img/photoredux.png" alt="Updated" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
